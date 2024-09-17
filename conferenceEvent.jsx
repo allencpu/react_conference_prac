@@ -35,7 +35,7 @@ const ConferenceEvent = () => {
     };
 
     const handleDecrementAvQuantity = (index) => {
-        dispatch(decrementAvQuanity(index));
+        dispatch(decrementAvQuantity(index));
     };
 
     const handleMealSelection = (index) => {
@@ -153,7 +153,7 @@ const ConferenceEvent = () => {
             </div>
           ))}
         </div>
-        <div className="total_cost">Total Cost: ${venueTotalCost}</div>
+        <div className="total_cost">Total Venue Cost: ${venueTotalCost}</div>
       </div>
 
                             {/*Necessary Add-ons*/}
@@ -181,7 +181,7 @@ const ConferenceEvent = () => {
                         </div>
                             ))}
                                 </div>
-                                <div className="total_cost">Total Cost: {avTotalCost}</div>
+                                <div className="total_cost">Total Add On Cost: {avTotalCost}</div>
                                 <div className="total_cost">Total Cost:</div>
 
                             </div>
@@ -223,4 +223,3 @@ const ConferenceEvent = () => {
 };
 
 export default ConferenceEvent;
-
